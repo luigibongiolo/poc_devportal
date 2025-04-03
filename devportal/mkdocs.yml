@@ -1,0 +1,8 @@
+site_name: My Docs
+plugins: 
+  - search
+  - swagger-ui-tag
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
