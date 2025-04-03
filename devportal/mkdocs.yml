@@ -2,6 +2,7 @@ site_name: My Docs
 plugins: 
   - search
   - swagger-ui-tag
+  - mkdocstrings
 theme:
   name: material
   language: pt-BR
