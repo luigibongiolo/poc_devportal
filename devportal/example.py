@@ -3,7 +3,7 @@ class Calculator:
 
     def add(self, a: float, b: float) -> float:
         """Add two numbers.
-
+          
         Args:
             a: First number.
             b: Second number.

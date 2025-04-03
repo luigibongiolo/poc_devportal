@@ -1,8 +1,17 @@
-site_name: My Docs
-plugins: 
+site_name: Devportal
+
+plugins:
   - search
   - swagger-ui-tag
   - mkdocstrings
+  # - pdf-export
+  - git-revision-date-localized:
+      locale: pt_BR
+      type: datetime
+      fallback_to_build_date: false
+      enable_creation_date: true 
+
+
 theme:
   name: material
   language: pt-BR
