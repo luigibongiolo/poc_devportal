@@ -4,6 +4,27 @@ plugins:
   - search
   - swagger-ui-tag
   - mkdocstrings
+  - tags
+  # - social:
+  #   cards: true
+  #   cards_image: assets/logo.png
+  #   cards_color: "#2B2B2B"
+  #   twitter: true
+  #   linkedin: true
+  #   whatsapp: true
+  # - minify:
+  #   minify_html: true
+  #   minify_js: true
+  #   minify_css: true
+
+  # - presentation:
+  #   width: 1024
+  #   height: 768
+  #   transition: 'slide'
+  #   enable_links: true
+  #   progress: true
+
+  - mermaid2
   # - pdf-export
   - git-revision-date-localized:
       locale: pt_BR
