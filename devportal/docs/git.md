@@ -2,6 +2,6 @@
 
 Data completa: {{ git_revision_date_localized }}
 
-Data ISO: {% if git_revision_date_localized_iso %}{{ git_revision_date_localized_iso }}{% else %}Não disponível{% endif %}
+Data ISO: {{ git_revision_date_localized_iso or "Não disponível" }}
 
-Tempo relativo: {% if git_revision_date_localized_timeago %}{{ git_revision_date_localized_timeago }}{% else %}Não disponível{% endif %}
+Tempo relativo: {{ git_revision_date_localized_timeago or "Não disponível" }}

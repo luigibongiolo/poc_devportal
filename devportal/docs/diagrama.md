@@ -106,3 +106,23 @@ mindmap
         checkout main
         merge feature
 ```
+
+```mermaid
+    stateDiagram-v2
+        direction LR
+        
+        [*] --> Seguradora
+        Seguradora --> SistemaRNS: Envia sinistros
+        SistemaRNS --> BaseExterna: Validação
+        BaseExterna --> SistemaRNS: Retorno
+        SistemaRNS --> Seguradora: Processamento
+
+        classDef orange_yellow fill:#FFA500,stroke:#000
+        classDef white fill:#FFFFFF,stroke:#000
+
+        class Seguradora orange_yellow
+        class SistemaRNS orange_yellow
+        class BaseExterna orange_yellow
+        class Retorno white
+        class Processamento white
+```

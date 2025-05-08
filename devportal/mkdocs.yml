@@ -35,5 +35,10 @@ plugins:
 
 theme:
   name: material
+  palette:
+  primary: custom
+  accent: custom
   language: pt-BR
   logo: assets/logo.png
+extra_css:
+  - css/custom.css
