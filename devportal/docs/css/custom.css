@@ -41,3 +41,6 @@
     background-color: #fff5e6; 
     color: #333;
   }
+  .md-footer-meta {
+    display: none;
+}
