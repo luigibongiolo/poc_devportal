@@ -1,4 +1,4 @@
-site_name: Devportal
+site_name: DEVPORTAL
 
 plugins:
   - search
@@ -19,6 +19,6 @@ theme:
   primary: custom
   accent: custom
   language: pt-BR
-  logo: assets/logo.png
+  # logo: assets/logo.png
 extra_css:
   - css/custom.css
